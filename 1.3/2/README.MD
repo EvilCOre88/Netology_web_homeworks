@@ -19,11 +19,13 @@
 > Для проверки работоспособности посылайте api-запросы удобным способом (IDE, postman, curl-запросы)
 
 > Примеры:
+```
+GET http://localhost:8888/api/clients/
+Content-Type: application/json
+```
 
-<code>GET http://localhost:8888/api/clients/
-Content-Type: application/json</code>
-
-<code>POST http://46.183.163.79:8000/api/clients/
+```
+POST http://46.183.163.79:8000/api/clients/
 Content-Type: application/json
 
 {  
@@ -32,4 +34,5 @@ Content-Type: application/json
   "code": 977,
   "tag": "tele",
   "timezone": "+0300"  
-}</code>
+}
+```
