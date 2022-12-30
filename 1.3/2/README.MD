@@ -25,7 +25,7 @@ Content-Type: application/json
 ```
 
 ```
-POST http://46.183.163.79:8000/api/clients/
+POST http://localhost:8888/api/clients/
 Content-Type: application/json
 
 {  
