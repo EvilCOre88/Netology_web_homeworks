@@ -1,0 +1,10 @@
+[Unit]
+Description=test work service
+After=network.target
+[Service]
+User=evilcore
+Group=www-data
+WorkingDirectory=C:\users\Evil COre\PycharmProjects\Test_work_FS
+ExecStart=C:\users\Evil COre\PycharmProjects\Test_work_FS\crud_env\bin\gunicorn --access-logfile - --workers=3 --bind unix:\C:\users\Evil COre\PycharmProjects\Test_work_FS\test_work_FS\project.sock test_work_FS.wsgi:application
+[Install]
+WantedBy=multi-user.target
