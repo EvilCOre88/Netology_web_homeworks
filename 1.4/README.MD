@@ -19,8 +19,11 @@
 }
 ```
 </details>
+
 - детальный список рассылок: "http://localhost:8888/api/mailing-lists-details/",
+
 - список клиентов: "http://localhost:8888/api/clients/",
+
 <details>
 <summary>Структура тела POST api-запроса:</summary>
 ```
@@ -32,9 +35,13 @@
 }
 ```
 </details>
+
 - список сообщений: "http://localhost:8888/api/messages/",
+
 - детальный список сообщений: "http://localhost:8888/api/message-detail/"
+
 - отправка рассылок: "http://localhost:8888/api/send/"
+
 <details>
 <summary>Структура тела POST api-запроса:</summary>
 ```
@@ -45,7 +52,7 @@
 </details> 
 </details>
 
-**Запуск приложения**
+**Запуск приложения:**
 
 - Клонируйте репозиторий командой <code>git clone https://github.com/EvilCOre88/web-hw.git</code> и перейдите в [каталог](/1.4) с Docker-файлами
 
