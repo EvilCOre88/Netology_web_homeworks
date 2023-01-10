@@ -6,9 +6,12 @@
 
 <details>
 <summary>Структура ссылок и api-запросов сервиса:</summary>
-- список рассылок: "http://localhost:8888/api/mailing-lists/",
+
+- список рассылок: <code>http://localhost:8888/api/mailing-lists/</code>
+
 <details>
 <summary>Структура тела POST api-запроса:</summary>
+
 ```
 {
     "mailing_date_time": null,
@@ -18,14 +21,16 @@
     "finish_date_time": null
 }
 ```
+
 </details>
 
-- детальный список рассылок: "http://localhost:8888/api/mailing-lists-details/",
+- детальный список рассылок: <code>http://localhost:8888/api/mailing-lists-details/</code>
 
-- список клиентов: "http://localhost:8888/api/clients/",
+- список клиентов: <code>http://localhost:8888/api/clients/</code>
 
 <details>
 <summary>Структура тела POST api-запроса:</summary>
+
 ```
 {
     "phone": null,
@@ -34,21 +39,24 @@
     "timezone": ""
 }
 ```
+
 </details>
 
-- список сообщений: "http://localhost:8888/api/messages/",
+- список сообщений: <code>http://localhost:8888/api/messages/</code>
 
-- детальный список сообщений: "http://localhost:8888/api/message-detail/"
+- детальный список сообщений: <code>http://localhost:8888/api/message-detail/</code>
 
-- отправка рассылок: "http://localhost:8888/api/send/"
+- отправка рассылок: <code>http://localhost:8888/api/send/</code>
 
 <details>
 <summary>Структура тела POST api-запроса:</summary>
+
 ```
 {
     "mailing_list_id": ""
 }
 ```
+
 </details> 
 </details>
 
