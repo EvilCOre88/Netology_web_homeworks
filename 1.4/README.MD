@@ -29,19 +29,19 @@
 
 - список клиентов: <code>http://localhost:8888/api/clients/</code>
 
-<details>
-<summary>Структура тела POST api-запроса:</summary>
+	<details>
+	<summary>Структура тела POST api-запроса:</summary>
 
-```
-{
-    "phone": null,
-    "code": null,
-    "tag": "",
-    "timezone": ""
-}
-```
+	```
+	{
+		"phone": null,
+		"code": null,
+		"tag": "",
+		"timezone": ""
+	}
+	```
 
-</details>
+	</details>
 
 - список сообщений: <code>http://localhost:8888/api/messages/</code>
 
@@ -49,16 +49,16 @@
 
 - отправка рассылок: <code>http://localhost:8888/api/send/</code>
 
-<details>
-<summary>Структура тела POST api-запроса:</summary>
+	<details>
+	<summary>Структура тела POST api-запроса:</summary>
 
-```
-{
-    "mailing_list_id": ""
-}
-```
+	```
+	{
+		"mailing_list_id": ""
+	}
+	```
 
-</details> 
+	</details> 
 </details>
 
 **Запуск приложения:**
