@@ -7,22 +7,23 @@
 <details>
 <summary>Структура ссылок и api-запросов сервиса:</summary>
 
+
 - список рассылок: <code>http://localhost:8888/api/mailing-lists/</code>
 
-<details>
-<summary>Структура тела POST api-запроса:</summary>
+	<details>
+	<summary>Структура тела POST api-запроса:</summary>
 
-```
-{
-    "mailing_date_time": null,
-    "message": "",
-    "filter_code": null,
-    "filter_tag": "",
-    "finish_date_time": null
-}
-```
+	```
+	{
+		"mailing_date_time": null,
+		"message": "",
+		"filter_code": null,
+		"filter_tag": "",
+		"finish_date_time": null
+	}
+	```
 
-</details>
+	</details>
 
 - детальный список рассылок: <code>http://localhost:8888/api/mailing-lists-details/</code>
 
@@ -95,7 +96,7 @@ Content-Type: application/json
 }
 ```
 
-> Для проверки рассылки (рассылка уже должна быть заполнена) посылайте POST api-запрос на http://localhost:8888/api/send/ по форме:
+> Для проверки рассылки (рассылка уже должна быть заполнена) посылайте POST api-запрос на <code>http://localhost:8888/api/send/</code> по форме:
 ```
 POST http://localhost:8888/api/send/
 Content-Type: application/json
