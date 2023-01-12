@@ -93,7 +93,7 @@
 
 	</details> 
 
-> Примеры:
+## Примеры:
 
 ```
 GET http://localhost:8888/api/clients/
@@ -132,17 +132,6 @@ Content-Type: application/json
 
 {
 	"mailing_list_id": 1
-}
-```
-
-> Для проверки рассылки (рассылка уже должна быть заполнена) посылайте POST api-запрос на <code>http://localhost:8888/api/send/</code> по форме:
-
-```
-POST http://localhost:8888/api/send/
-Content-Type: application/json
-
-{
-	"mailing_list_id": <id рассылки>
 }
 ```
 
